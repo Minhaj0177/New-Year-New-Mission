@@ -16,3 +16,21 @@
   margin: 0;
   padding: 0;
 }
+
+.container{
+  max-width: 1050px;
+  margin: auto;
+}
+/* header and banner related styles */
+header{
+  border: 2px solid red;
+  height: 500px;
+}
+.banner{
+  border: 2px solid blue;
+ 
+}
+.banner-content{
+  border: 2px solid yellow;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(7, 2, 17, 0)), url('../resources/banner-image.png');
+}
